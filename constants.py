@@ -30,14 +30,5 @@ class Url:  # url
     URL_ORDER_LIST = URL_BASE + '/api/v1/orders'
     URL_DELETE_COURIER = URL_BASE + '/api/v1/courier/:id'
 
+
 COLORS = ['[]', '["BLACK"]', '["GREY"]', '["BLACK", "GREY"]']
-
-
-
-#    URL_ORDER_FINISH = URL_BASE + '/api/v1/orders/finish/:id'
-#    URL_ORDER_CANCEL = URL_BASE + '/api/v1/orders/cancel'
-#    URL_GET_ORDER_BY_NUMBER = URL_BASE + '/api/v1/orders/track'
-#    URL_ACCEPT_ = URL_BASE + '/api/v1/orders/accept/:id'
-#    URL_CREATE_ORDER = URL_BASE + '/api/v1/orders'
-#    URL_DELETE_COURIER = URL_BASE + '/api/v1/courier/:id'  #
-#    URL_GET_QUANTITY_ORDER = URL_BASE + '/api/v1/courier/:id/ordersCount'
